@@ -1,0 +1,728 @@
+
+.form_pin{display:none}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.header-text{
+    margin-top: 50px;
+}
+.agree_wrapper{
+    text-align: left;
+}
+.iagree_input + label{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.form_msisdn p{
+    font-size: 24px;
+}
+.iagree_input{
+    margin: 0;
+}
+.submit.btn{
+    margin-top: 20px;
+}
+.mainForm input[type=tel], .mainForm input[type=email], .mainForm select, .mainForm input[type=text]{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.logos-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.logo-inner img{
+    width: 100%;
+    max-width: 200px;
+    object-fit: contain;
+}
+.logo-inner{
+    width: 25%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.main-row{
+    background: #000;
+    padding: 60px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background: url('../images/back-header.webp') no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.logo {
+    width: 226px;
+}
+
+html body #container main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-top {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    width: 24px;
+    height: 24px;
+    margin-top: 21px;
+}
+
+.h-text {
+    width: 62.5%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 16px #000;
+    font-family: "Poppins";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.red {
+    color: #FF1717;
+    font-family: "Poppins";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    gap: 88.5px;
+    margin: 35px auto;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.cla_title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cla_main {
+    position: relative;
+    width: 402px;
+    padding: 25px 38px;
+    text-align: center;
+    border-radius: 12px;
+    background: rgba(135, 135, 135, 0.25);
+    backdrop-filter: blur(11px);
+}
+/* .cla_main._claContent.form_msisdn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+#tel-div::before,
+#password-div::before {
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* #tel-div::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/mail.webp);
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 21px;
+    top: 33px;
+    left: 15px;
+    position: absolute;
+} */
+
+div#tel-div.fail::after {
+    background-image: url(../images/fail.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    top: 24px;
+    left: 3px;
+    position: absolute;
+}
+
+#password-div::before {
+    content: "Password";
+}
+
+#tel-div::before,
+#password-div::before {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#password-div::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/padlock.webp);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    top: 33px;
+    left: 15px;
+    position: absolute;
+}
+
+#password-div.fail::after {
+    background-image: url(../images/fail.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    top: 24px;
+    left: 3px;
+    position: absolute;
+}
+
+div#tel-div,
+#password-div {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#emailError,
+#passwordError {
+    font-size: 12px;
+    color: red;
+    height: 14px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    background: #252525;
+    gap: 30px;
+}
+
+.b2-top {
+    color: #FFF;
+    text-align: right;
+    font-family: "Poppins";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.b2-text {
+    width: 600px;
+    color: #fff;
+    text-align: end;
+}
+
+.b2-text-tile {
+    margin-bottom: 10px;
+    margin-right: 65px;
+}
+
+.b2-text-tile h3 {
+    margin: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.b2-text-tile p {
+    margin: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.b2-text-tile::before {
+    content: "";
+    background-image: url(../images/icon.webp);
+    position: absolute;
+    width: 65px;
+    height: 65px;
+}
+
+.content3 {
+    background: #131416;
+    text-align: center;
+    padding: 60px;
+}
+
+.b3-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.b3-title p {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    margin-top: 0;
+}
+
+.b3-main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.b3 {
+    border-radius: 15px;
+    background: #252525;
+    text-align: center;
+}
+
+.b3 img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.b3-content {
+    width: 239px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+.b3-text {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.content4 {
+    background: url('../images/women.webp') no-repeat;
+    height: 575px;
+    text-align: left;
+    padding: 0 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.b4 {
+    width: 702px;
+}
+
+.content4 .b4-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.content4 .b4-text {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content4 .b4-btn {
+    background: #FF1717;
+    border: none;
+    padding: 20px 45px;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+footer p {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sectionTitle {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 62px;
+    margin: 0 auto;
+    max-width: 630px;
+    text-align: center;
+}
+
+#sectionText {
+    color: #fff;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 63px;
+    margin: 25px auto;
+    max-width: 705px;
+    text-align: center;
+}
+
+#frmVerifyEmail {
+    margin: 0 auto;
+    max-width: 580px;
+    width: 100%;
+}
+
+.form-group,
+#subscribe,#verify {
+    margin-bottom: 15px;
+}
+
+#msisdn,
+#input_password,
+#subscribe, #verify {
+    display: block;
+    font-size: inherit;
+    padding: 0 15px 0 65px;
+    border-radius: 4px;
+    border: 1px solid #989898;
+    height: 52px;
+}
+
+::placeholder {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+*:focus {
+    outline: none;
+    border-color: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF;
+}
+
+.submit.btn, #subscribe, #verify {
+    background-color: #18A103;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 26px;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+div#togglePassword {
+    position: absolute;
+    max-width: 28px;
+    top: 54.5%;
+    right: 61px;
+    cursor: pointer;
+}
+
+.far.icon-none {
+    display: none;
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
+
+.msisdn.error,
+.input_password.error {
+    border: 1px solid red !important;
+}
+
+.success .msisdn {
+    border: 1px solid green !important;
+}
+
+@media only screen and (max-width: 1440px) {
+    .content4 {
+        padding-left: 160px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header-top {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .main {
+        gap: unset;
+    }
+
+    .b3-main {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .h-text {
+        width: 100%;
+    }
+
+    .cla_main {
+        width: 50%;
+    }
+
+    .b3-content {
+        width: 210px;
+    }
+
+    div#togglePassword {
+        top: 58.5%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .logo {
+        width: auto;
+        height: 43px;
+    }
+
+    .burger {
+        margin-top: 5px;
+    }
+
+    .red,
+    .h-text {
+        line-height: 40px;
+        font-size: 40px;
+    }
+
+    .h-text {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+   
+    .main {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .cla_main {
+        width: 326px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .main-img img {
+        width: 402px;
+    }
+
+    .b3-content {
+        width: 158px;
+        margin: 0 10px 0 10px;
+        text-align: center;
+    }
+
+    .content4 {
+        padding-left: 30px;
+    }
+
+    .content2 img {
+        display: none;
+    }
+
+    .b2-top,
+    .b2-text-tile h3,
+    .b2-text-tile p {
+        text-align: left;
+    }
+
+    div#togglePassword {
+        top: 50.5%;
+    }
+
+    .content2 {
+        padding-bottom: 42px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .red,
+    .h-text {
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .b3-main {
+        flex-direction: column;
+    }
+
+    .main-img img {
+        width: 75%;
+    }
+
+    .cla_main {
+        width: 70%;
+        padding: 25px 30px;
+    }
+
+    .b2-text {
+        padding: 0 20px;
+    }
+
+    .b2-text-tile h3 {
+        font-size: 16px;
+    }
+
+    .b2-text-tile p {
+        font-size: 14px;
+    }
+
+    .b3-content {
+        width: auto;
+    }
+
+    .content3 {
+        padding: 90px;
+    }
+
+    .content4 {
+        text-align: center;
+        padding: 0;
+        height: 338px;
+        padding: 0 20px;
+    }
+
+    .content4 .b4-title,
+    .b3-title p,
+    .b2-top {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .b4-text {
+        font-size: 14px;
+    }
+
+    .b4 {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 14px;
+        justify-content: center;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    #sectionText {
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    #sectionTitle {
+        font-size: 28px;
+        line-height: 48px;
+    }
+
+    ::placeholder {
+        font-size: 0.7em;
+        font-style: italic;
+    }
+
+    section {
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .logo-inner {
+        width: 50%;
+    }
+    .logos-main .logo-inner:nth-child(1), .logos-main .logo-inner:nth-child(2){
+        padding-bottom: 0 !important;
+    }
+    .main-row{
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .content3 {
+        padding: 75px;
+    }
+
+    div#togglePassword {
+        right: 43px;
+        top: 51.5%;
+    }
+}

@@ -478,9 +478,9 @@ a.offer:link,a.offer:visited{
 a.offer:active,a.offer:hover{text-decoration:none;}*/
 /* Remove Side Bar on Tablet and Mobile*/
     @media only screen and (max-width : 992px) {
-    .col-md-4 {
+    /* .col-md-4 {
         display: none;
-    }
+    } */
     }
 
 

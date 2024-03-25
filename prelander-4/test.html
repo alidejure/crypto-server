@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UAE Phone Number Validation</title>
+    <script>
+        function validatePhoneNumber() {
+            var phoneNumber = document.getElementById("phone").value;
+            var uaeRegex = /^(\+?971|0)(\d{2})(\d{3})(\d{4})$/;
+            if (uaeRegex.test(phoneNumber)) {
+                return true;
+            } else {
+                alert("Please enter a valid UAE phone number.");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validatePhoneNumber()">
+        <label for="phone">Enter UAE Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+        <small>Format: +971XXXXXXXXX</small><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

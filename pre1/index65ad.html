@@ -1,755 +1,944 @@
 <!DOCTYPE html>
 <html lang="en" data-scrapbook-title="B Capital Group's newest project has launched">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="BREAKING">
-  <title>B Capital Group's new project has been launched</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link href="css/css.css" rel="stylesheet">
-  <meta name="referrer" content="none">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link href="css/css2.css" rel="stylesheet">
-</head>
-
-<body data-rsssl="1" class="article-page news"
-  bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMS45LjA0Iiwic2NvcmUiOjEwOTA0fV0="
-  style="">
-  <link rel="stylesheet" href="css/ouibounce.css">
-
-
-  <style>
-     .custom__form .agree_wrapper{
-      margin-bottom: 10px;
-      display: flex;
-    }
-    .custom__form p{
-      color: #fff !important;
-    }
-    .custom__form .iagree{
-      color: #fff;
-    }
-    .custom__form .form-group{
-      margin-bottom: 0;
-    }
-    .custom__form .submit_btn.submit {
-    background-color: transparent;
-    width: 100%;
-    color: #fff;
-    border-color: #fff;
-    font-size: 17px;
-    border-radius: 5px;
-}
-    .custom__form .iagree{
-      font-style: normal;
-    font-family: sans-serif;
-    }
-    .custom__form input, .custom__form select{
-      font-style: normal;
-    font-family: sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 42px;
-    box-shadow: none;
-    border: 1px solid #000000;
-    }
-    .custom__form .iagree_input{
-      margin-right: 10px;
-    }
-    .custom__form .iagree_input, .custom__form label{
-      margin-bottom: 0;
-      margin-top: 0;
-    }
-    .custom__form {
-    /* background-color: #f7cf3c; */
-    background-color: #0c2b57;
-    padding: 50px 40px;
-    /* border-radius: 20px; */
-    margin: 0;
-    margin-bottom: 30px;
-}
-    #article-tweet {
-      display: none;
-    }
-  </style>
-  <style>
-    .progress-container {
-      width: 100%;
-      height: 5px;
-      background: #ccc;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-    }
-
-    .progress-bar {
-      height: 5px;
-      background: #0071c6;
-      width: 0%;
-    }
-
-    .main_header {
-      padding-top: 5px;
-    }
-
-    .mid_header {
-      display: flex;
-      border-bottom: 1px solid #ccc;
-    }
-
-    .header_logo img {
-      width: 457px;
-      display: block;
-    }
-
-    .mid_header_right_block {
-      margin-left: auto;
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-      font-family: 'Merriweather Sans', sans-serif;
-      padding-top: 5px;
-    }
-
-    .subscribe_btn {
-      font-size: 12px;
-      font-weight: bold;
-      color: #ffffff;
-      display: block;
-      background-color: #006ed2;
-      border-radius: 4px;
-      text-align: center;
-      padding: 2px 25px 10px;
-      position: relative;
-    }
-
-    .subscribe_btn:hover {
-      background-color: #0072bc;
-      color: #ffffff;
-    }
-
-    .subscribe_btn:after {
-      content: 'As low as $1.49/week';
-      font-size: 10px;
-      color: #ffffff;
-      position: absolute;
-      bottom: -3px;
-      left: 50%;
-      transform: translateX(-50%);
-      white-space: nowrap;
-      font-weight: normal;
-    }
-
-    .sign_btn {
-      background-color: #ffffff;
-      border: 1px solid #006ed2;
-      color: #006ed2;
-      font-size: 13px;
-      font-weight: bold;
-      text-align: center;
-      padding: 5px 20px;
-      border-radius: 4px;
-      margin-left: 10px;
-      display: block;
-    }
-
-    .sign_btn:hover {
-      background-color: #f8f8f8;
-      color: #00548b;
-    }
-
-    .search_btn {
-      background-color: #ffffff;
-      border: 1px solid #006ed2;
-      color: #006ed2;
-      font-size: 12px;
-      display: flex;
-      align-items: center;
-      padding: 8px;
-      margin: 0 10px 0;
-      border-radius: 4px;
-    }
-
-    .search_btn:hover {
-      color: #006ed2;
-    }
-
-    .mid_header_menu {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding: 0;
-      margin: auto 0 0;
-      list-style-type: none;
-      width: 100%;
-    }
-
-    .mid_header_menu a {
-      display: flex;
-      align-items: flex-end;
-      font-family: 'Merriweather Sans', sans-serif;
-      font-size: 12px;
-      font-weight: bold;
-      color: #333333;
-      padding: 5px 10px;
-      border-left: 1px solid #ccc;
-    }
-
-    .mid_header_menu a:hover {
-      color: #006ed2;
-    }
-
-    .mid_header_menu li:first-child a {
-      border: none;
-    }
-
-    .mid_header_menu a i {
-      font-size: 15px;
-    }
-
-    .mid_header_menu a span {
-      line-height: 1;
-      margin-left: 5px;
-    }
-
-    .bottom_header_wrap {
-      background-color: #f8f8f8;
-    }
-
-    .bottom_header {
-      display: flex;
-      align-items: center;
-      padding: 0 15px;
-    }
-
-    .bottom_header_menu {
-      display: flex;
-      align-items: center;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .bottom_header_menu a {
-      font-family: 'Merriweather Sans', sans-serif;
-      display: block;
-      font-size: 14px;
-      color: #333333;
-      text-transform: uppercase;
-      margin-right: 40px;
-      padding: 10px 0;
-      position: relative;
-    }
-
-    .bottom_header_menu a:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 3px;
-      bottom: 0px;
-      left: 50%;
-      transform: translateX(-50%) scaleX(0);
-      background-color: #0072bc;
-      transition: all .2s ease-in-out;
-    }
-
-    .bottom_header_menu a:hover:after {
-      transform: translateX(-50%) scaleX(1);
-    }
-
-    .sub_header_wrap {
-      background-color: #ecebec;
-    }
-
-    .sub_header {
-      display: flex;
-      align-items: center;
-      padding: 0 15px;
-      justify-content: center;
-    }
-
-    .sub_header_menu {
-      display: flex;
-      align-items: center;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .sub_header_menu a {
-      font-family: 'Merriweather Sans', sans-serif;
-      font-size: 14px;
-      color: #333333;
-      margin: 0 20px;
-      padding: 8px 0;
-      display: block;
-      position: relative;
-    }
-
-    .sub_header_menu a:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0px;
-      left: 50%;
-      transform: translateX(-50%) scaleX(0);
-      background-color: #0072bc;
-      transition: all .2s ease-in-out;
-    }
-
-    .sub_header_menu a:hover:after {
-      transform: translateX(-50%) scaleX(1);
-    }
-
-    .fixed_header_wrap {
-      position: fixed;
-      width: 100%;
-      top: -60px;
-      left: 0;
-      background-color: #ffffff;
-      z-index: 100;
-      box-shadow: 0 2px 4px 0px rgba(0, 29, 48, 0.3);
-      transition: all .4s ease-in-out;
-    }
-
-    .fixed_header {
-      padding: 10px 15px;
-      display: flex;
-      align-items: center;
-    }
-
-    .fixed_header_menu {
-      display: flex;
-      align-items: center;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .fixed_header_menu a {
-      display: block;
-      font-family: 'Merriweather Sans', sans-serif;
-      font-size: 12px;
-      color: #333333;
-      margin-right: 30px;
-      text-transform: uppercase;
-    }
-
-    .fixed_header .subscribe_btn {
-      background-color: #0072bc;
-      margin-left: auto;
-    }
-
-    .user_btn {
-      display: none;
-      font-size: 18px;
-      color: #0072bc;
-      margin-left: 10px;
-    }
-
-    .mobile_menu_btn {
-      display: none;
-    }
-
-    .container.content {
-      padding-top: 30px;
-    }
-    .new_logo img{
-      max-width: 470px;
-    }
-    @media(max-width: 1199px) {
-      .fixed_header_menu li:nth-child(10) {
-        display: none;
-      }
-    }
-
-    @media(max-width: 991px) {
-
-      .bottom_header_menu li:nth-child(10),
-      .bottom_header_menu li:nth-child(9),
-      .fixed_header_menu li:nth-child(9),
-      .fixed_header_menu li:nth-child(8) {
-        display: none;
-      }
-    }
-
-    @media(max-width: 767px) {
-
-      .top_header_wrap,
-      .sub_header_wrap,
-      .bottom_header_wrap,
-      .fixed_header_wrap,
-      .mid_header_left_block,
-      .sign_btn,
-      .search_btn,
-      .mid_header_menu {
-        display: none;
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BREAKING">
+    <title>B Capital Group's new project has been launched</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="css/css.css" rel="stylesheet">
+    <meta name="referrer" content="none">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="css/css2.css" rel="stylesheet">
+  </head>
+  <body data-rsssl="1" class="article-page news" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMS45LjA0Iiwic2NvcmUiOjEwOTA0fV0=" style="">
+    <link rel="stylesheet" href="css/ouibounce.css">
+    <style>
+      .custom__form .agree_wrapper {
+        margin-bottom: 10px;
+        display: flex;
       }
 
-      .main_header {
+      .custom__form p {
+        color: #fff !important;
+      }
+
+      .custom__form .iagree {
+        color: #fff;
+      }
+
+      .custom__form .form-group {
+        margin-bottom: 0;
+      }
+
+      .custom__form .submit_btn.submit {
+        background-color: transparent;
+        width: 100%;
+        color: #fff;
+        border-color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+      }
+
+      .custom__form .iagree {
+        font-style: normal;
+        font-family: sans-serif;
+      }
+
+      .custom__form input,
+      .custom__form select {
+        font-style: normal;
+        font-family: sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 42px;
+        box-shadow: none;
+        border: 1px solid #000000;
+      }
+
+      .custom__form .iagree_input {
+        margin-right: 10px;
+      }
+
+      .custom__form .iagree_input,
+      .custom__form label {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      .custom__form {
+        /* background-color: #f7cf3c; */
+        background-color: #0c2b57;
+        padding: 50px 40px;
+        /* border-radius: 20px; */
+        margin: 0;
+        margin-bottom: 30px;
+      }
+
+      #article-tweet {
+        display: none;
+      }
+    </style>
+    <style>
+      .progress-container {
+        width: 100%;
+        height: 5px;
+        background: #ccc;
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        background-color: #ffffff;
-        z-index: 100;
-        border-bottom: 1px solid #EFF1F2;
+        z-index: 1000;
       }
 
-      .mid_header .subscribe_btn,
-      .mid_header .user_btn,
-      .mobile_menu_btn {
+      .progress-bar {
+        height: 5px;
+        background: #0071c6;
+        width: 0%;
+      }
+
+      .main_header {
+        padding-top: 5px;
+      }
+
+      .mid_header {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .header_logo img {
+        width: 457px;
         display: block;
       }
 
-      .header_logo {
-        display: none;
+      .mid_header_right_block {
+        margin-left: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        font-family: 'Merriweather Sans', sans-serif;
+        padding-top: 5px;
       }
 
-      .mobile_header_logo {
-        max-width: 400px;
+      .subscribe_btn {
+        font-size: 12px;
+        font-weight: bold;
+        color: #ffffff;
+        display: block;
+        background-color: #006ed2;
+        border-radius: 4px;
+        text-align: center;
+        padding: 2px 25px 10px;
+        position: relative;
+      }
+
+      .subscribe_btn:hover {
+        background-color: #0072bc;
+        color: #ffffff;
+      }
+
+      .subscribe_btn:after {
+        content: 'As low as $1.49/week';
+        font-size: 10px;
+        color: #ffffff;
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-weight: normal;
+      }
+
+      .sign_btn {
+        background-color: #ffffff;
+        border: 1px solid #006ed2;
+        color: #006ed2;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        padding: 5px 20px;
+        border-radius: 4px;
+        margin-left: 10px;
+        display: block;
+      }
+
+      .sign_btn:hover {
+        background-color: #f8f8f8;
+        color: #00548b;
+      }
+
+      .search_btn {
+        background-color: #ffffff;
+        border: 1px solid #006ed2;
+        color: #006ed2;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        margin: 0 10px 0;
+        border-radius: 4px;
+      }
+
+      .search_btn:hover {
+        color: #006ed2;
+      }
+
+      .mid_header_menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0;
+        margin: auto 0 0;
+        list-style-type: none;
         width: 100%;
+      }
+
+      .mid_header_menu a {
+        display: flex;
+        align-items: flex-end;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #333333;
+        padding: 5px 10px;
+        border-left: 1px solid #ccc;
+      }
+
+      .mid_header_menu a:hover {
+        color: #006ed2;
+      }
+
+      .mid_header_menu li:first-child a {
+        border: none;
+      }
+
+      .mid_header_menu a i {
+        font-size: 15px;
+      }
+
+      .mid_header_menu a span {
+        line-height: 1;
+        margin-left: 5px;
+      }
+
+      .bottom_header_wrap {
+        background-color: #f8f8f8;
+      }
+
+      .bottom_header {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+      }
+
+      .bottom_header_menu {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .bottom_header_menu a {
+        font-family: 'Merriweather Sans', sans-serif;
+        display: block;
+        font-size: 14px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-right: 40px;
+        padding: 10px 0;
+        position: relative;
+      }
+
+      .bottom_header_menu a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%) scaleX(0);
+        background-color: #0072bc;
+        transition: all .2s ease-in-out;
+      }
+
+      .bottom_header_menu a:hover:after {
+        transform: translateX(-50%) scaleX(1);
+      }
+
+      .sub_header_wrap {
+        background-color: #ecebec;
+      }
+
+      .sub_header {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        justify-content: center;
+      }
+
+      .sub_header_menu {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .sub_header_menu a {
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 14px;
+        color: #333333;
+        margin: 0 20px;
+        padding: 8px 0;
+        display: block;
+        position: relative;
+      }
+
+      .sub_header_menu a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%) scaleX(0);
+        background-color: #0072bc;
+        transition: all .2s ease-in-out;
+      }
+
+      .sub_header_menu a:hover:after {
+        transform: translateX(-50%) scaleX(1);
+      }
+
+      .fixed_header_wrap {
+        position: fixed;
+        width: 100%;
+        top: -60px;
+        left: 0;
+        background-color: #ffffff;
+        z-index: 100;
+        box-shadow: 0 2px 4px 0px rgba(0, 29, 48, 0.3);
+        transition: all .4s ease-in-out;
+      }
+
+      .fixed_header {
+        padding: 10px 15px;
         display: flex;
         align-items: center;
       }
 
-      .mobile_header_logo img {
-        width: 100%;
+      .fixed_header_menu {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .fixed_header_menu a {
+        display: block;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 12px;
+        color: #333333;
+        margin-right: 30px;
+        text-transform: uppercase;
+      }
+
+      .fixed_header .subscribe_btn {
+        background-color: #0072bc;
+        margin-left: auto;
+      }
+
+      .user_btn {
+        display: none;
+        font-size: 18px;
+        color: #0072bc;
+        margin-left: 10px;
       }
 
       .mobile_menu_btn {
-        font-size: 24px;
-        color: #222222;
-      }
-
-      .subscribe_btn {
-        background-color: #ffffff;
-        color: #0062aa;
-        white-space: nowrap;
-        padding: 5px 15px;
-      }
-
-      .mid_header_right_block {
-        flex-wrap: nowrap;
-      }
-
-      .mid_header {
-        padding: 5px 15px;
-        justify-content: space-between;
-        border: none;
+        display: none;
       }
 
       .container.content {
-        padding-top: 60px;
+        padding-top: 30px;
       }
-    }
-  </style>
 
-  <header class="z-he">
-    <header class="cg _dg">
+      .new_logo img {
+        max-width: 470px;
+      }
 
-      <div id="ctn_head" class="x _pr x-nf _g" bis_skin_checked="1">
-        <div class="_g _g-o _g-xs x_w" bis_skin_checked="1">
-          <div class="x_e _dn" bis_skin_checked="1">
-            <span>version:
-            </span>
-            <!-- <div class="ed" bis_skin_checked="1">
-              <ul class="_ls _df">
-                <li data-edition="el-pais">
-                  <a href="#LINK#">
-                    <abbr>Singapore 
-                    </abbr>
-                    <span>Singapore 
-                    </span>
-                  </a>
-                </li>
-                <li data-edition="el-pais-america">
-                  <a href="#LINK#">
-                    <abbr>America
-                    </abbr>
-                    <span>America
-                    </span>
-                  </a>
-                </li>
-                <li data-edition="el-pais-mexico">
-                  <a href="#LINK#">
-                    <abbr>Mexico
-                    </abbr>
-                    <span>Mexico
-                    </span>
-                  </a>
-                </li>
-                <li data-edition="el-pais-brasil">
-                  <a href="#LINK#">
-                    <abbr>Brazil
-                    </abbr>
-                    <span>Brazil
-                    </span>
-                  </a>
-                </li>
-                <li data-edition="el-pais-cataluna">
-                  <a href="#LINK#">
-                    <abbr>catalonia
-                    </abbr>
-                    <span>catalonia</span>
-                  </a>
-                </li>
-                <li data-edition="el-pais-in-english">
-                  <a href="#LINK#">
-                    <abbr>English
-                    </abbr>
-                    <span>English
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </div> -->
-          </div>
-          <div class="x_ep _df" bis_skin_checked="1">
-            <div class="x_bh" bis_skin_checked="1">
-              <button class="btn btn-i btn-h ep_m" id="btn_open_hamburger" aria-label="Desplegar menú">
-                <svg class="" viewBox="0 0 40 40">
+      @media(max-width: 1199px) {
+        .fixed_header_menu li:nth-child(10) {
+          display: none;
+        }
+      }
+
+      @media(max-width: 991px) {
+
+        .bottom_header_menu li:nth-child(10),
+        .bottom_header_menu li:nth-child(9),
+        .fixed_header_menu li:nth-child(9),
+        .fixed_header_menu li:nth-child(8) {
+          display: none;
+        }
+      }
+
+      @media(max-width: 767px) {
+
+        .top_header_wrap,
+        .sub_header_wrap,
+        .bottom_header_wrap,
+        .fixed_header_wrap,
+        .mid_header_left_block,
+        .sign_btn,
+        .search_btn,
+        .mid_header_menu {
+          display: none;
+        }
+
+        .main_header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: #ffffff;
+          z-index: 100;
+          border-bottom: 1px solid #EFF1F2;
+        }
+
+        .mid_header .subscribe_btn,
+        .mid_header .user_btn,
+        .mobile_menu_btn {
+          display: block;
+        }
+
+        .header_logo {
+          display: none;
+        }
+
+        .mobile_header_logo {
+          max-width: 400px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+        }
+
+        .mobile_header_logo img {
+          width: 100%;
+        }
+
+        .mobile_menu_btn {
+          font-size: 24px;
+          color: #222222;
+        }
+
+        .subscribe_btn {
+          background-color: #ffffff;
+          color: #0062aa;
+          white-space: nowrap;
+          padding: 5px 15px;
+        }
+
+        .mid_header_right_block {
+          flex-wrap: nowrap;
+        }
+
+        .mid_header {
+          padding: 5px 15px;
+          justify-content: space-between;
+          border: none;
+        }
+
+        .container.content {
+          padding-top: 60px;
+        }
+      }
+    </style>
+    <header class="z-he">
+      <header class="cg _dg">
+        <div id="ctn_head" class="x _pr x-nf _g" bis_skin_checked="1">
+          <div class="_g _g-o _g-xs x_w" bis_skin_checked="1">
+            <div class="x_e _dn" bis_skin_checked="1">
+              <span>version: </span>
+              <!-- <div class="ed" bis_skin_checked="1"><ul class="_ls _df"><li data-edition="el-pais"><a href="#LINK#"><abbr>Singapore 
+                    </abbr><span>Singapore 
+                    </span></a></li><li data-edition="el-pais-america"><a href="#LINK#"><abbr>America
+                    </abbr><span>America
+                    </span></a></li><li data-edition="el-pais-mexico"><a href="#LINK#"><abbr>Mexico
+                    </abbr><span>Mexico
+                    </span></a></li><li data-edition="el-pais-brasil"><a href="#LINK#"><abbr>Brazil
+                    </abbr><span>Brazil
+                    </span></a></li><li data-edition="el-pais-cataluna"><a href="#LINK#"><abbr>catalonia
+                    </abbr><span>catalonia</span></a></li><li data-edition="el-pais-in-english"><a href="#LINK#"><abbr>English
+                    </abbr><span>English
+                    </span></a></li></ul></div> -->
+            </div>
+            <div class="x_ep _df" bis_skin_checked="1">
+              <div class="x_bh" bis_skin_checked="1">
+                <button class="btn btn-i btn-h ep_m" id="btn_open_hamburger" aria-label="Desplegar menú">
+                  <svg class="" viewBox="0 0 40 40">
+                    <use xlink:href="_.html"></use>
+                  </svg>
+                </button>
+              </div>
+              <span class="ep_l">
+                <a class="new_logo" href="#LINK#">
+                  <img src="img/logo.png" alt="">
+                </a>
+              </span>
+            </div>
+            <div class="x_s _dn" bis_skin_checked="1">
+              <a class="x_s_l _dib" href="#LINK#">स्पेन </a>
+            </div>
+            <div class="x_u _df" id="u_c_dv" bis_skin_checked="1">
+              <a class="button | flex btn btn-xs btn-2" href="#LINK#">subscribe </a>
+              <button class="button | flex btn btn-u _dn" id="l_u_b">
+                <abbr id="l_u_in">h</abbr>
+                <span class="_dn" id="l_u_fn">Hello! </span>
+              </button>
+              <a class="btn btn-u" href="#LINK#">
+                <svg class="icon_portal_login_user" viewBox="0 0 40 40">
                   <use xlink:href="_.html"></use>
                 </svg>
-              </button>
+                <span class="_dn">Log in </span>
+              </a>
             </div>
-            <span class="ep_l">
-              <a class="new_logo" href="#LINK#"><img src="img/logo.png" alt=""></a>
-            </span>
           </div>
-          <div class="x_s _dn" bis_skin_checked="1">
-            <a class="x_s_l _dib" href="#LINK#">स्पेन
-            </a>
-          </div>
-          <div class="x_u _df" id="u_c_dv" bis_skin_checked="1">
-            <a class="button | flex btn btn-xs btn-2" href="#LINK#">subscribe
-
-            </a>
-            <button class="button | flex btn btn-u _dn" id="l_u_b">
-              <abbr id="l_u_in">h</abbr>
-              <span class="_dn" id="l_u_fn">Hello!
-
-              </span>
-            </button>
-            <a class="btn btn-u" href="#LINK#">
-              <svg class="icon_portal_login_user" viewBox="0 0 40 40">
-                <use xlink:href="_.html"></use>
-              </svg>
-              <span class="_dn">Log in
-              </span>
-            </a>
+          <div class="pb" bis_skin_checked="1">
+            <div class="pb_p" id="reading_progress_bar_id" bis_skin_checked="1"></div>
           </div>
         </div>
-        <div class="pb" bis_skin_checked="1">
-          <div class="pb_p" id="reading_progress_bar_id" bis_skin_checked="1"></div>
-        </div>
-      </div>
-      <div id="counterLayerDiv" class="counterLayerDiv" bis_skin_checked="1"></div>
-      <div class="_g-o csw" bis_skin_checked="1">
-        <div class="_g _g-xs cs" bis_skin_checked="1">
-          <div class="cs_t" bis_skin_checked="1">
-            <h1 class="cs_t_e">
-              <a href="#LINK#">Singapore </a>
-            </h1>
-          </div>
-          <nav class="cs_m">
-            <div class="sm _df" bis_skin_checked="1">
-              <a href="#LINK#">Andalusia</a>
-              <a href="#LINK#">catalonia</a>
-              <a href="#LINK#">Valencian Community</a>
-              <a href="#LINK#">Galicia</a>
-              <a href="#LINK#">madrid</a>
-              <a href="#LINK#">Basque Country</a>
-              <a href="#LINK#">last news</a>
+        <div id="counterLayerDiv" class="counterLayerDiv" bis_skin_checked="1"></div>
+        <div class="_g-o csw" bis_skin_checked="1">
+          <div class="_g _g-xs cs" bis_skin_checked="1">
+            <div class="cs_t" bis_skin_checked="1">
+              <h1 class="cs_t_e">
+                <a href="#LINK#">Singapore </a>
+              </h1>
             </div>
-          </nav>
+            <nav class="cs_m">
+              <div class="sm _df" bis_skin_checked="1">
+                <a href="#LINK#">Andalusia</a>
+                <a href="#LINK#">catalonia</a>
+                <a href="#LINK#">Valencian Community</a>
+                <a href="#LINK#">Galicia</a>
+                <a href="#LINK#">madrid</a>
+                <a href="#LINK#">Basque Country</a>
+                <a href="#LINK#">last news</a>
+              </div>
+            </nav>
+          </div>
         </div>
-      </div>
+      </header>
     </header>
-  </header>
-
-  <section class="content-box">
-    <div class="container content" bis_skin_checked="1">
-      <div class="row" id="story" bis_skin_checked="1">
-        <div class="col-md-8" bis_skin_checked="1">
-          <h1>
-            <a href="#LINK#"
-              style="text-decoration: none; color: inherit;"><u>Special Report</u>: B Capital Group launches its new platform Bitcoin Billionaire: It aims to help families get rich</a>
-          </h1>
-          <p class="m-t-25">
-            <em>On the occasion of the worldwide financial crisis, B Capital Group has launched a new project that promises to help families become rich</em>
-          </p>
-          <!-- <a href="#LINK#"><img src="img/Logos.png"
+    <section class="content-box">
+      <div class="container content" bis_skin_checked="1">
+        <div class="row" id="story" bis_skin_checked="1">
+          <div class="col-md-8" bis_skin_checked="1">
+            <h1>
+              <a href="#LINK#" style="text-decoration: none; color: inherit;">
+                <u>Special Report</u>: B Capital Group launches its new platform Bitcoin Billionaire: It aims to help families get rich </a>
+            </h1>
+            <p class="m-t-25">
+              <em>On the occasion of the worldwide financial crisis, B Capital Group has launched a new project that promises to help families become rich</em>
+            </p>
+            <!-- <a href="#LINK#"><img src="img/Logos.png"
               class="img-responsive" style="padding: 0px;" alt=""></a> -->
-          <a href="#LINK#"><img id="hero" src="img/rich1.jpg" class="img-responsive"
-              style="padding: 0px;" alt=""></a>
-          <br>
-          <p class="m-t-25"><b>It is well known that families around the world are struggling with economic distress, with businesses closing and people losing their jobs as a result of the recent global pandemic.</b>
-          </p>
-          <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The great company "B Capital Group" has decided to help people in need and launched its project </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Bitcoin Billionaire"</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , investing 1.5 billion dollars in Bitcoin. </font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">B Capital Group CEO Eduardo Saverin has asked to keep the project a secret while it is being worked on.</font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Now B Capital Group has finally revealed its </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> and is pleased to announce that citizens of the United States, the United Kingdom, and Australia, as well as Singapore , are among the first to try out this new platform.</font></font></p> <p class="m-t-25"> <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"> <img src="img/bitcoin_code_tweet.png" id="article-tweet" alt=""> </a> </p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The idea is simple: give the average person the opportunity to take advantage of the rise of digital currencies. </font><font style="vertical-align: inherit;">Even if they don't have any investment or technology experience. </font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">People around the world were shocked to hear about this new platform that promises to help you get rich quick.</font></font></p> <p class="m-t-25"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> is a new cryptocurrency exchange platform that, according to Eduardo, </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">can make anyone a millionaire in 3-4 months!</font></font></strong></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">B Capital Group refers to the project as "the biggest opportunity to build a small fortune quickly" and encourages people to try out its new platform before banks try to shut it down.</font></font></p> <p></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">In </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , users only need to make an initial deposit </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">to the platform </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , typically $250 or more, and the algorithm does the automated trading.</font></font></p> <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><img id="hero" src="img/milion-2.webp" class="img-responsive" style="padding: 0px;"></a> <center><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Interview with B Capital Group CEO Eduardo Saverin </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></i> </center> <p class="m-t-25"></p> <h2><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><b style=" text-align: center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exclusive Interview with B Capital Group CEO Eduardo Saverin:</font></font></b></a> <p class="m-t-25"></p> <p class="m-t-25"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"B Capital Group has always tried to make people happy around the world, now our goal is to help people instead of making them happy, we can afford each person the dreams and desires they want."</font></font></em> </p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eduardo continues: </font></font></p> <p class="m-t-25"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“Our new platform, </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , will help people get rich quickly, instead of making every penny work, we make the money work for you!”</font></font></em></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eduardo promises that as long as </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin billionaires </font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> keep using it, people who use it will become rich but banks around the world are not happy with this new platform and are trying to shut it down, so Eduardo is asking everyone to use it. Urges to use it before switching off.</font></font></p> </h2> <p class="m-t-25"> <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><img src="img/img-text.jpg" class="img-responsive" style="padding: 0px;"></a> </p> <center><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">You will be surprised to know that only two-thirds of Eduardo's total wealth of $182.9 billion comes from his work. </font></font></i></center> <p class="m-t-25"></p> <h2><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><b style="text-transform: uppercase; text-align: center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">What exactly is Bitcoin Billionaire and how does it work?</font></font></b></a></h2> <p class="m-t-25"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The idea behind </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> is simple: </font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> to allow the average citizen to profit from the cryptocurrency boom, which is the most lucrative investment of the 21st century, despite what most people think.</font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Although the price of Bitcoin remains below its all-time high of $46,000 per Bitcoin, operators continue to make fortunes. </font><font style="vertical-align: inherit;">Because </font><font style="vertical-align: inherit;">Because there are thousands of other cryptocurrencies besides Bitcoin, which can be traded for huge profits on a daily basis.</font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Some of these cryptocurrencies are Ripple, Ethereum, Monero, Zcash and they keep getting returns of 10,000% and more for common people in Singapore .</font></font></p> <p class="m-t-25"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> allows you to profit from all these cryptocurrencies even in a bearish market. </font><font style="vertical-align: inherit;">Use intelligence (AI) to automatically manage short-term and long-term sales so you can make money at any time, even while you sleep.</font></font></p> <p class="m-t-25"> <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> is backed by some of the smartest tech minds ever. </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Richard Branson, Jeff Bezos and Bill Gates</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , to name a few. </font></font></p> <p> <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit"> <img src="img/1812-robert-philip-ng.jpg" class="img-responsive" style="padding: 0;"> </a> </p> <center><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Robert and Philip Ng discuss Bitcoin Billionaire at CES 2021.</font></font></center> <h2><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="color: #141414; text-decoration: none;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">But does this system really work?</font></font></b></a></h2> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">We thought the best way to answer that question was to test the claims. </font><font style="vertical-align: inherit;">By Eduardo Saverin. </font><font style="vertical-align: inherit;">We created an account and deposited an initial amount of $250. </font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Then all you had to do was press the "Start" button. </font><font style="vertical-align: inherit;">Obviously the software will do everything else for us. </font></font></p> <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Before we had a chance to answer everyone's questions, Eduardo interrupted and said with a smile on his face: </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"I'm up to $298.42 after only 8 minutes."</font></font></em> </p> <h2><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="color: #141414; text-decoration: none;"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Si if you had invested just $100 in digital currencies in 2010, you would now enjoy $75 million worth of dividends.</font></font></b></a></h2>
-          <div class="hide-mobile-content-brake-point" bis_skin_checked="1"></div>
-          <br style="">
-<a href="#LINK#" class="btn2 btn--orange btn--animate-grow u__text--color-white" style="margin-left: 10px; margin-right: 10px; "> Register here and start earning profits!</a>
-<br style="">
-<p class="m-t-25" style="">We decided to put <a href="#LINK#">Platform </a> Oysters used to do Another test, to see if it was actually possible for you to make money, or maybe it was a one-time affair. </p>
-<p class="m-t-25" style="" >here's the deal: </b> We quickly found out that <a href="#LINK#">platform </a> Charges a 2% commission on profit User generates and you need to make a minimum deposit of $250 to get started. That would be money Be your initial investment, which the trading software uses to trade. </p>
-<p class="m-t-25" style="">
-  <b>At the same time, we also learned that algorithms make money Buying when the price rises and when the price falls. This is known as short-selling, and <a href="#LINK#">platform </a>Handles it for you automatically. </b>
-</p>
-<p class="m-t-25" style="">Our <b>results with Bitcoin Billionaire after 7 days:</b>
-</p>
-<p class="m-t-25" style="">Eduardo was able to make $230 in profit After 3 hours, for us, it took too much time. <a href="#LINK#">platform </a>Took 20 hours To generate a profit of $190, which still impressed us a lot! I haven't made any trades in my life yet Here we were able to make profits. </p>
-<p class="m-t-25" style="">
-  <a href="#LINK#">We spent about 25 minutes per day checking the results, and after 5 days, </a>
-  <a href="#LINK#">platform </a> The mass of $820 was traded. This is a 210% increase over our initial deposit. I truly believed in it <a href="#LINK#">platform </a>. .
-</p>
-<p class="m-t-25" style="">After 7 days our initial investment was traded $2000. At this point, my mind was racing with the possibilities of all the things I could spend that money on. This is more than what I earn Work for weeks and I've spent less than 3 weekly hours <a href="#LINK#">platform </a>. . </p>
-<p class="m-t-25" style="">I decided to keep our account active for 15 days in total because I wanted to see how high it could go. Our account eventually hit a peak of $7500 but had a negative - 78$ trade. I looked through our trading logs and discovered that not every trade is profitable, some actually lose money. </p>
-<p class="m-t-25" style="">The <a href="#LINK#">platform </a> Not magic, but after 87% of our trades Profitable, net result we made $7100 from the initial deposit of $250. It cost me less than 3 hours a week and worked absolutely No technical or investment experience. </p>
-<p class="m-t-25" style="">As you can see from the screenshot below, I decided to use it To perform the 'withdrawal of funds' ceremony Withdraw $7100 from my account. </p>
-<a href="#LINK#" style="">
-  <img src="img/bittrader-step3.png" class="img-responsive" style="padding: 0px;">
-</a>
-<p class="m-t-25" style="">In total, we managed to make $7100. We decided to withdraw the money and split it Between all of us. </p>
-<p class="m-t-25" style="">
-  <i>Note: It took 48 hours to deposit my money into my personal bank account. </i>
-</p>
-<p class="m-t-25" style=""></p>
-<h2 style="">
-  <a href="#LINK#" style="color: #141414; text-decoration: none;">
-    <b> trying yourself </b>
-  </a>
-</h2>
-<p class="m-t-25" style=""></p>
-<p class="m-t-25" style="">right now, our readers can try <a href="#LINK#">platform </a> For a minimum initial deposit of only $250. You can withdraw this amount whenever you want. </p>
-<p class="m-t-25" style=""><a href="#LINK#">platform given the huge increase in popularity of the business </a>, this initial minimum Deposits can increase! </p>
-<p class="m-t-25" style="">
-  <a href="#LINK#" style="color: #141414; text-decoration: none;">
-    <b>It's important that you sign up right away, because we don't Know how much space there will be obtained</b>
-  </a>
-</p>
-<p class="m-t-25" style=""> You can fund your account via credit card or bank transfer. </p>
-<p class="m-t-25" style="">
-  <a href="#LINK#" style="color: #141414; text-decoration: none;">There <b>are three steps to get started:</b>
-  </a>
-  <br>1. Sign up for a free account <br>2. Deposit a minimum of $250 <br>3. Use <a href="#LINK#">Bitcoin Billionaire </a>To make profits <br>
-</p>
-<p class="m-t-25" style="">
-  <i>comment: </i> You can withdraw your profit or initial deposit <a href="#LINK#" style="color: #141414; text-decoration: none;">
-    <b>
-      <u>any </u>
-    </b>
-  </a>Time using the 'Withdraw' button inside <a href="#LINK#">platform </a>
-</p>
-<h2 style="">
-  <a href="#LINK#" style="text-decoration: none; color: inherit;">
-    <b style="text-transform: uppercase; text-align: center">Here's my step-by-step walkthrough:</b>
-  </a>
-</h2>
-<p class="m-t-25" style="">The first thing you see is a video showing off the power of <a href="#LINK#">Bitcoin Billionaire </a>. . Advertising is big and bold And on your face, but it's an American product and that's how they work. Anyway, you <a href="#LINK#">Just submit your name and email address</a>next to the video to get started right away." </p>
-<p class="m-t-25" style=""><strong>(tip)</strong>: Even if you decide not to invest any money, I recommend <a href="#LINK#">am signing up now</a> because it's free and registration Can expire at any time for Canadian residents) </em>
-</p>
-<a href="#LINK#" style="">
-  <img src="img/bitcoin_code_body_step1.png" class="img-responsive" style="padding: 0px;">
-</a>
-<p class="m-t-25" style="">Next, you're asked <a href="#LINK#">Fund your account </a>. . As I was navigating deposits Page, my mobile rang. It was an international number so I was hesitant to respond but then I realized it was Obviously. </p>
-<a href="#LINK#" style="">
-  <img src="img/cta2.jpg.png" class="img-responsive" style="padding: 0px;">
-</a>
-<p class="m-t-25" style="">Sure, it was my own personal account manager." Their service was Great. He told me about the entire funding process. They accept all major credit cards like Visa, MasterCard, and American Express. I went ahead and deposited the minimum amount which is $250. </p>
-<a href="#LINK#" style="">
-  <img src="img/cta3.jpg.png" class="img-responsive" style="padding: 0px;">
-</a>
-<p class="m-t-25" style="">Once funded, I navigated to the "Auto-Trader" section of the software. Set the trade amount to the recommended $50 and enable it. The software started trading fast Rate and I were worried at first but let it do its job. </p>
-<h2 style="">
-  <a href="#LINK#" style="text-decoration: none; color: inherit;">
-    <b style="text-transform: uppercase; text-align: center">update </b>
-  </a>
-</h2>
-<p class="m-t-25" style="">We just got the news that today (Tuesday, January 10, 2023) Almost all positions are filled for Canadian residents. <a href="#LINK#">bitcoin billionaire </a>Can accept only limited number Total number of users to keep profit per user high. Currently, there are still (37) spots left, so hurry up and <a href="#LINK#">Sign up now to secure your place</a>. </p>
-
-        </div>
-
-        <i>
-          <div class="col-md-4" bis_skin_checked="1">
-            <div class="row custom__form">
-              <div class="col-12">
-                <p class="text-center color-light">Our smart investing can make you thousands in less than 7 days</p>
-                <div class="form_wrapper whiteLabel_form">								
-                  <!-- <form class="mainForm" method="POST" name="regForm" target="_top" f="native_ajfrm" novalidate="novalidate">
-                    <input name="formName" type="hidden" value="regForm">
-                    <input name="thankyouPage" type="hidden" value="https:///">	
-                
-                    <div class="form-group">
-                        <div id="container_customerLeadEmail" class="col">
-                            <input type="email" placeholder="Email" class="text form_elem_customerLeadEmail form-control" name="email" id="customerLeadEmail" maxlength="50" required="" aria-required="true">
-                            <label for="customerLeadEmail"></label>
-                        </div>
-                
-                        <div id="container_customerLeadFirstName" class="col">
-                            <input type="text" placeholder="Full Name" class="text form_elem_fullName form-control" name="fullName" id="fullName" required="" minlength="1" maxlength="40" aria-required="true">
-                            <label for="fullName"></label>
-                        </div>
-                
-                        <div id="container_countryId">
-                            <div class="styled-select col">
-                                <select class="text form_elem_countryId form-control" name="countryCodeISO2" id="countryId" required="" aria-required="true">
-                                    <option cncode="" value="" selected="selected">Country</option>
-                                    <option cncode="" value="" selected="selected">Country</option><option cncode="93" value="AF">Afghanistan<span class="areaCodePend"> (+93)</span></option><option cncode="358" value="AX">Aland Islands<span class="areaCodePend"> (+358)</span></option>
-                                    <option cncode="27" value="ZA">South Africa<span class="areaCodePend"> (+27)</span></option>
-                                </select>
-                            </div>
-                            <label for="countryId"></label>
-                        </div>
-                
-                        <div id="container_phoneNumber" class="col">
-                            <input type="hidden" class="text form_elem_countryCode" name="phoneCountryCode" id="countryCode" maxlength="4" required="" aria-required="true">
-                            <input type="tel" placeholder="Phone Number" class="text form_elem_phoneNumber form-control" name="phoneNumber" id="phoneNumber" required="" minlength="5" maxlength="15" aria-required="true">
-                            <label for="countryCode"></label>
-                            <label for="phoneNumber"></label>
-                        </div>
-                
-                        <input type="hidden" value="000" name="areaCode" id="areaCode" class="areaCode">
-                        <input type="hidden" class="form_lang" value="en" name="lang" id="lang">
-                        <input type="hidden" value="0" name="trackingLinkId" id="trackingLinkId" class="trackingLinkId">
-                        <input type="hidden" value="1008344" name="affiliateId" id="affiliateId" class="affiliateId">
-                        <input type="hidden" value="" name="grp" id="grp" class="grp">
-                        <input type="hidden" value="0" name="euid" id="euid" class="euid">
-                        <input type="hidden" value="source ID" name="pubid" id="pubid" class="pubid">
-                        <input type="hidden" name="affTrack" id="affTrack" class="affTrack" value="">
-                        <input type="hidden" name="affToken" id="affToken" class="affToken" value="E36CB4183F">
-                        <input type="hidden" name="affTags" id="affTags" class="affTags" value="Landingpage">
-                        <input type="hidden" name="affClickId" id="affClickId" class="affClickId" value="">
-                        <input value="OPT_IN" name="emailOpt" type="hidden">
-                        <input value="generic" name="brand" type="hidden">
-                        <input type="hidden" value="" name="gcid" id="gcid" class="gcid">
-                    </div>
-                
-                    <div class="agree_wrapper">
-                        <input value="OPT_IN" name="emailOpt" id="emailOpt" class="iagree_input" style="height: auto;" type="checkbox" checked="1" required="1" aria-required="true">
-                        <label for="emailOpt">
-                            <span class="iagree">
-                                <span class="" style="font-size:11px;" tmp="1">I agree to receive emails</span>
-                            </span>
-                        </label>
-                    </div>
-                
-                    <div class="button_wrapper form-check">
-                        <div class="submit_btn_wrapper lp-pom-form-field clearfix">
-                            <input class="submit_btn submit btn" type="button" value="submit" id="sendData" onclick="submitForm()">
-                        </div>
-                    </div>
-                </form> -->
-                
-                <!-- <script>
+            <a href="#LINK#">
+              <img id="hero" src="img/rich1.jpg" class="img-responsive" style="padding: 0px;" alt="">
+            </a>
+            <br>
+            <p class="m-t-25">
+              <b>It is well known that families around the world are struggling with economic distress, with businesses closing and people losing their jobs as a result of the recent global pandemic.</b>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">The great company "B Capital Group" has decided to help people in need and launched its project </font>
+              </font>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">"Bitcoin Billionaire"</font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> , investing 1.5 billion dollars in Bitcoin. </font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">B Capital Group CEO Eduardo Saverin has asked to keep the project a secret while it is being worked on.</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Now B Capital Group has finally revealed its </font>
+              </font>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Bitcoin billionaire</font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> and is pleased to announce that citizens of the United States, the United Kingdom, and Australia, as well as Singapore , are among the first to try out this new platform.</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/bitcoin_code_tweet.png" id="article-tweet" alt="">
+              </a>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">The idea is simple: give the average person the opportunity to take advantage of the rise of digital currencies. </font>
+                <font style="vertical-align: inherit;">Even if they don't have any investment or technology experience. </font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">People around the world were shocked to hear about this new platform that promises to help you get rich quick.</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Bitcoin Billionaire </font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> is a new cryptocurrency exchange platform that, according to Eduardo, </font>
+              </font>
+              <strong>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">can make anyone a millionaire in 3-4 months!</font>
+                </font>
+              </strong>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">B Capital Group refers to the project as "the biggest opportunity to build a small fortune quickly" and encourages people to try out its new platform before banks try to shut it down.</font>
+              </font>
+            </p>
+            <p></p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">In </font>
+              </font>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Bitcoin Billionaire </font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> , users only need to make an initial deposit </font>
+              </font>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">to the platform </font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> , typically $250 or more, and the algorithm does the automated trading.</font>
+              </font>
+            </p>
+            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+              <img id="hero" src="img/milion-2.webp" class="img-responsive" style="padding: 0px;">
+            </a>
+            <center>
+              <i>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Interview with B Capital Group CEO Eduardo Saverin </font>
+                </font>
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Bitcoin Billionaire </font>
+                  </font>
+                </a>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;"> .</font>
+                </font>
+              </i>
+            </center>
+            <p class="m-t-25"></p>
+            <h2>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                <b style=" text-align: center">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Exclusive Interview with B Capital Group CEO Eduardo Saverin:</font>
+                  </font>
+                </b>
+              </a>
+              <p class="m-t-25"></p>
+              <p class="m-t-25">
+                <em>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">"B Capital Group has always tried to make people happy around the world, now our goal is to help people instead of making them happy, we can afford each person the dreams and desires they want."</font>
+                  </font>
+                </em>
+              </p>
+              <p class="m-t-25">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Eduardo continues: </font>
+                </font>
+              </p>
+              <p class="m-t-25">
+                <em>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">“Our new platform, </font>
+                  </font>
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Bitcoin Billionaire </font>
+                    </font>
+                  </a>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;"> , will help people get rich quickly, instead of making every penny work, we make the money work for you!”</font>
+                  </font>
+                </em>
+              </p>
+              <p class="m-t-25">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Eduardo promises that as long as </font>
+                </font>
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Bitcoin billionaires </font>
+                  </font>
+                </a>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;"> keep using it, people who use it will become rich but banks around the world are not happy with this new platform and are trying to shut it down, so Eduardo is asking everyone to use it. Urges to use it before switching off.</font>
+                </font>
+              </p>
+            </h2>
+            <p class="m-t-25">
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/img-text.jpg" class="img-responsive" style="padding: 0px;">
+              </a>
+            </p>
+            <center>
+              <i>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">You will be surprised to know that only two-thirds of Eduardo's total wealth of $182.9 billion comes from his work. </font>
+                </font>
+              </i>
+            </center>
+            <p class="m-t-25"></p>
+            <h2>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                <b style="text-transform: uppercase; text-align: center">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">What exactly is Bitcoin Billionaire and how does it work?</font>
+                  </font>
+                </b>
+              </a>
+            </h2>
+            <p class="m-t-25">
+              <strong>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">The idea behind </font>
+                </font>
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Bitcoin Billionaire</font>
+                  </font>
+                </a>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;"> is simple: </font>
+                </font>
+              </strong>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> to allow the average citizen to profit from the cryptocurrency boom, which is the most lucrative investment of the 21st century, despite what most people think.</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Although the price of Bitcoin remains below its all-time high of $46,000 per Bitcoin, operators continue to make fortunes. </font>
+                <font style="vertical-align: inherit;">Because </font>
+                <font style="vertical-align: inherit;">Because there are thousands of other cryptocurrencies besides Bitcoin, which can be traded for huge profits on a daily basis.</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Some of these cryptocurrencies are Ripple, Ethereum, Monero, Zcash and they keep getting returns of 10,000% and more for common people in Singapore .</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Bitcoin Billionaire</font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> allows you to profit from all these cryptocurrencies even in a bearish market. </font>
+                <font style="vertical-align: inherit;">Use intelligence (AI) to automatically manage short-term and long-term sales so you can make money at any time, even while you sleep.</font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Bitcoin Billionaire</font>
+                </font>
+              </a>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> is backed by some of the smartest tech minds ever. </font>
+              </font>
+              <strong>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Richard Branson, Jeff Bezos and Bill Gates</font>
+                </font>
+              </strong>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> , to name a few. </font>
+              </font>
+            </p>
+            <p>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit">
+                <img src="img/1812-robert-philip-ng.jpg" class="img-responsive" style="padding: 0;">
+              </a>
+            </p>
+            <center>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Robert and Philip Ng discuss Bitcoin Billionaire at CES 2021.</font>
+              </font>
+            </center>
+            <h2>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="color: #141414; text-decoration: none;">
+                <b>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">But does this system really work?</font>
+                  </font>
+                </b>
+              </a>
+            </h2>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">We thought the best way to answer that question was to test the claims. </font>
+                <font style="vertical-align: inherit;">By Eduardo Saverin. </font>
+                <font style="vertical-align: inherit;">We created an account and deposited an initial amount of $250. </font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Then all you had to do was press the "Start" button. </font>
+                <font style="vertical-align: inherit;">Obviously the software will do everything else for us. </font>
+              </font>
+            </p>
+            <p class="m-t-25">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Before we had a chance to answer everyone's questions, Eduardo interrupted and said with a smile on his face: </font>
+              </font>
+              <em>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">"I'm up to $298.42 after only 8 minutes."</font>
+                </font>
+              </em>
+            </p>
+            <h2>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="color: #141414; text-decoration: none;">
+                <b>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Si if you had invested just $100 in digital currencies in 2010, you would now enjoy $75 million worth of dividends.</font>
+                  </font>
+                </b>
+              </a>
+            </h2>
+            <div class="hide-mobile-content-brake-point" bis_skin_checked="1"></div>
+            <br style="">
+            <a href="#LINK#" class="btn2 btn--orange btn--animate-grow u__text--color-white" style="margin-left: 10px; margin-right: 10px; "> Register here and start earning profits!</a>
+            <br style="">
+            <p class="m-t-25" style="">We decided to put <a href="#LINK#">Platform </a> Oysters used to do Another test, to see if it was actually possible for you to make money, or maybe it was a one-time affair. </p>
+            <p class="m-t-25" style="">here's the deal: </b> We quickly found out that <a href="#LINK#">platform </a> Charges a 2% commission on profit User generates and you need to make a minimum deposit of $250 to get started. That would be money Be your initial investment, which the trading software uses to trade. </p>
+            <p class="m-t-25" style="">
+              <b>At the same time, we also learned that algorithms make money Buying when the price rises and when the price falls. This is known as short-selling, and <a href="#LINK#">platform </a>Handles it for you automatically. </b>
+            </p>
+            <p class="m-t-25" style="">Our <b>results with Bitcoin Billionaire after 7 days:</b>
+            </p>
+            <p class="m-t-25" style="">Eduardo was able to make $230 in profit After 3 hours, for us, it took too much time. <a href="#LINK#">platform </a>Took 20 hours To generate a profit of $190, which still impressed us a lot! I haven't made any trades in my life yet Here we were able to make profits. </p>
+            <p class="m-t-25" style="">
+              <a href="#LINK#">We spent about 25 minutes per day checking the results, and after 5 days, </a>
+              <a href="#LINK#">platform </a> The mass of $820 was traded. This is a 210% increase over our initial deposit. I truly believed in it <a href="#LINK#">platform </a>. .
+            </p>
+            <p class="m-t-25" style="">After 7 days our initial investment was traded $2000. At this point, my mind was racing with the possibilities of all the things I could spend that money on. This is more than what I earn Work for weeks and I've spent less than 3 weekly hours <a href="#LINK#">platform </a>. . </p>
+            <p class="m-t-25" style="">I decided to keep our account active for 15 days in total because I wanted to see how high it could go. Our account eventually hit a peak of $7500 but had a negative - 78$ trade. I looked through our trading logs and discovered that not every trade is profitable, some actually lose money. </p>
+            <p class="m-t-25" style="">The <a href="#LINK#">platform </a> Not magic, but after 87% of our trades Profitable, net result we made $7100 from the initial deposit of $250. It cost me less than 3 hours a week and worked absolutely No technical or investment experience. </p>
+            <p class="m-t-25" style="">As you can see from the screenshot below, I decided to use it To perform the 'withdrawal of funds' ceremony Withdraw $7100 from my account. </p>
+            <a href="#LINK#" style="">
+              <img src="img/bittrader-step3.png" class="img-responsive" style="padding: 0px;">
+            </a>
+            <p class="m-t-25" style="">In total, we managed to make $7100. We decided to withdraw the money and split it Between all of us. </p>
+            <p class="m-t-25" style="">
+              <i>Note: It took 48 hours to deposit my money into my personal bank account. </i>
+            </p>
+            <p class="m-t-25" style=""></p>
+            <h2 style="">
+              <a href="#LINK#" style="color: #141414; text-decoration: none;">
+                <b> trying yourself </b>
+              </a>
+            </h2>
+            <p class="m-t-25" style=""></p>
+            <p class="m-t-25" style="">right now, our readers can try <a href="#LINK#">platform </a> For a minimum initial deposit of only $250. You can withdraw this amount whenever you want. </p>
+            <p class="m-t-25" style="">
+              <a href="#LINK#">platform given the huge increase in popularity of the business </a>, this initial minimum Deposits can increase!
+            </p>
+            <p class="m-t-25" style="">
+              <a href="#LINK#" style="color: #141414; text-decoration: none;">
+                <b>It's important that you sign up right away, because we don't Know how much space there will be obtained</b>
+              </a>
+            </p>
+            <p class="m-t-25" style=""> You can fund your account via credit card or bank transfer. </p>
+            <p class="m-t-25" style="">
+              <a href="#LINK#" style="color: #141414; text-decoration: none;">There <b>are three steps to get started:</b>
+              </a>
+              <br>1. Sign up for a free account <br>2. Deposit a minimum of $250 <br>3. Use <a href="#LINK#">Bitcoin Billionaire </a>To make profits <br>
+            </p>
+            <p class="m-t-25" style="">
+              <i>comment: </i> You can withdraw your profit or initial deposit <a href="#LINK#" style="color: #141414; text-decoration: none;">
+                <b>
+                  <u>any </u>
+                </b>
+              </a>Time using the 'Withdraw' button inside <a href="#LINK#">platform </a>
+            </p>
+            <h2 style="">
+              <a href="#LINK#" style="text-decoration: none; color: inherit;">
+                <b style="text-transform: uppercase; text-align: center">Here's my step-by-step walkthrough:</b>
+              </a>
+            </h2>
+            <p class="m-t-25" style="">The first thing you see is a video showing off the power of <a href="#LINK#">Bitcoin Billionaire </a>. . Advertising is big and bold And on your face, but it's an American product and that's how they work. Anyway, you <a href="#LINK#">Just submit your name and email address</a>next to the video to get started right away." </p>
+            <p class="m-t-25" style="">
+              <strong>(tip)</strong>: Even if you decide not to invest any money, I recommend <a href="#LINK#">am signing up now</a> because it's free and registration Can expire at any time for Canadian residents) </em>
+            </p>
+            <a href="#LINK#" style="">
+              <img src="img/bitcoin_code_body_step1.png" class="img-responsive" style="padding: 0px;">
+            </a>
+            <p class="m-t-25" style="">Next, you're asked <a href="#LINK#">Fund your account </a>. . As I was navigating deposits Page, my mobile rang. It was an international number so I was hesitant to respond but then I realized it was Obviously. </p>
+            <a href="#LINK#" style="">
+              <img src="img/cta2.jpg.png" class="img-responsive" style="padding: 0px;">
+            </a>
+            <p class="m-t-25" style="">Sure, it was my own personal account manager." Their service was Great. He told me about the entire funding process. They accept all major credit cards like Visa, MasterCard, and American Express. I went ahead and deposited the minimum amount which is $250. </p>
+            <a href="#LINK#" style="">
+              <img src="img/cta3.jpg.png" class="img-responsive" style="padding: 0px;">
+            </a>
+            <p class="m-t-25" style="">Once funded, I navigated to the "Auto-Trader" section of the software. Set the trade amount to the recommended $50 and enable it. The software started trading fast Rate and I were worried at first but let it do its job. </p>
+            <h2 style="">
+              <a href="#LINK#" style="text-decoration: none; color: inherit;">
+                <b style="text-transform: uppercase; text-align: center">update </b>
+              </a>
+            </h2>
+            <p class="m-t-25" style="">We just got the news that today (Tuesday, January 10, 2023) Almost all positions are filled for Canadian residents. <a href="#LINK#">bitcoin billionaire </a>Can accept only limited number Total number of users to keep profit per user high. Currently, there are still (37) spots left, so hurry up and <a href="#LINK#">Sign up now to secure your place</a>. </p>
+          </div>
+          <i>
+            <div class="col-md-4" bis_skin_checked="1">
+              <div class="row custom__form">
+                <div class="col-12">
+                  <p class="text-center color-light">Our smart investing can make you thousands in less than 7 days</p>
+                  <div class="form_wrapper whiteLabel_form">
+                    <!-- <form class="mainForm" method="POST" name="regForm" target="_top" f="native_ajfrm" novalidate="novalidate"><input name="formName" type="hidden" value="regForm"><input name="thankyouPage" type="hidden" value="https:///"><div class="form-group"><div id="container_customerLeadEmail" class="col"><input type="email" placeholder="Email" class="text form_elem_customerLeadEmail form-control" name="email" id="customerLeadEmail" maxlength="50" required="" aria-required="true"><label for="customerLeadEmail"></label></div><div id="container_customerLeadFirstName" class="col"><input type="text" placeholder="Full Name" class="text form_elem_fullName form-control" name="fullName" id="fullName" required="" minlength="1" maxlength="40" aria-required="true"><label for="fullName"></label></div><div id="container_countryId"><div class="styled-select col"><select class="text form_elem_countryId form-control" name="countryCodeISO2" id="countryId" required="" aria-required="true"><option cncode="" value="" selected="selected">Country</option><option cncode="" value="" selected="selected">Country</option><option cncode="93" value="AF">Afghanistan<span class="areaCodePend"> (+93)</span></option><option cncode="358" value="AX">Aland Islands<span class="areaCodePend"> (+358)</span></option><option cncode="27" value="ZA">South Africa<span class="areaCodePend"> (+27)</span></option></select></div><label for="countryId"></label></div><div id="container_phoneNumber" class="col"><input type="hidden" class="text form_elem_countryCode" name="phoneCountryCode" id="countryCode" maxlength="4" required="" aria-required="true"><input type="tel" placeholder="Phone Number" class="text form_elem_phoneNumber form-control" name="phoneNumber" id="phoneNumber" required="" minlength="5" maxlength="15" aria-required="true"><label for="countryCode"></label><label for="phoneNumber"></label></div><input type="hidden" value="000" name="areaCode" id="areaCode" class="areaCode"><input type="hidden" class="form_lang" value="en" name="lang" id="lang"><input type="hidden" value="0" name="trackingLinkId" id="trackingLinkId" class="trackingLinkId"><input type="hidden" value="1008344" name="affiliateId" id="affiliateId" class="affiliateId"><input type="hidden" value="" name="grp" id="grp" class="grp"><input type="hidden" value="0" name="euid" id="euid" class="euid"><input type="hidden" value="source ID" name="pubid" id="pubid" class="pubid"><input type="hidden" name="affTrack" id="affTrack" class="affTrack" value=""><input type="hidden" name="affToken" id="affToken" class="affToken" value="E36CB4183F"><input type="hidden" name="affTags" id="affTags" class="affTags" value="Landingpage"><input type="hidden" name="affClickId" id="affClickId" class="affClickId" value=""><input value="OPT_IN" name="emailOpt" type="hidden"><input value="generic" name="brand" type="hidden"><input type="hidden" value="" name="gcid" id="gcid" class="gcid"></div><div class="agree_wrapper"><input value="OPT_IN" name="emailOpt" id="emailOpt" class="iagree_input" style="height: auto;" type="checkbox" checked="1" required="1" aria-required="true"><label for="emailOpt"><span class="iagree"><span class="" style="font-size:11px;" tmp="1">I agree to receive emails</span></span></label></div><div class="button_wrapper form-check"><div class="submit_btn_wrapper lp-pom-form-field clearfix"><input class="submit_btn submit btn" type="button" value="submit" id="sendData" onclick="submitForm()"></div></div></form> -->
+                    <!-- <script>
 
                   //
                   const data = new URLSearchParams({ a: 'b'})
@@ -799,564 +988,1260 @@ const resp = await fetch('https://echo-server.deno.dev', {
     });
 }
                 </script> -->
-                <label for="email">Email:</label><br>
-    <input type="email" value="" id="email" name="email"><br>
-
-    <label for="fullName">Full Name:</label><br>
-    <input type="text" value="" id="fullName" name="fullName"><br>
-
-    <label for="phoneNumber">Phone Number:</label><br>
-    <input type="text" value="" id="phoneNumber" name="phoneNumber"><br>
-
-    <button id="submitButton">Submit</button>
-
-    <script>
-      document.getElementById('submitButton').addEventListener('click', function (e) {
-          e.preventDefault();
-  
-          const data = {
-              email: document.getElementById('email').value,
-              fullName: document.getElementById('fullName').value,
-              phoneNumber: document.getElementById('phoneNumber').value,
-              countryCodeISO2: 'az',
-              affTrack: "1008344",
-              affToken: "E36CB4183F",
-              phoneCountryCode: '123',
-              emailOpt: 'emailOpt',
-              phoneAreaCode: '456',
-              language: "az",
-          };
-  
-          const params = new URLSearchParams();
-          for (const key in data) {
-              if (data.hasOwnProperty(key)) {
-                  params.append(key, data[key]);
-              }
-          }
-  
-          fetch('https://www.xtrade.com/api/lead/create', {
-              method: 'POST',
-              mode: 'no-cors',
-              headers: {
-                  'Content-Type': 'application/x-www-form-urlencoded',
-              },
-              body: params.toString()
-          })
-          .then(response => {
-              if (response.ok) {
-                  return response.json();
-              } else {
-                  throw new Error('Network response was not ok');
-              }
-          })
-          .then(data => {
-              console.log(data);
-              if (data.success && data.optionalThankyouPage) {
-                  window.location.href = data.optionalThankyouPage;
-              } else {
-                  // Handle other scenarios if necessary
-              }
-          })
-          .catch(error => {
-              console.error('Error:', error);
-              // Handle error
-          });
-      });
-  </script>
-                
-              
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" value="" id="email" name="email">
+                    <br>
+                    <label for="fullName">Full Name:</label>
+                    <br>
+                    <input type="text" value="" id="fullName" name="fullName">
+                    <br>
+                    <label for="phoneNumber">Phone Number:</label>
+                    <br>
+                    <input type="text" value="" id="phoneNumber" name="phoneNumber">
+                    <br>
+                    <button id="submitButton">Submit</button>
+                    <script>
+                      document.getElementById('submitButton').addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const data = {
+                          email: document.getElementById('email').value,
+                          fullName: document.getElementById('fullName').value,
+                          phoneNumber: document.getElementById('phoneNumber').value,
+                          countryCodeISO2: 'az',
+                          affTrack: "1008344",
+                          affToken: "E36CB4183F",
+                          phoneCountryCode: '123',
+                          emailOpt: 'emailOpt',
+                          phoneAreaCode: '456',
+                          language: "az",
+                        };
+                        const params = new URLSearchParams();
+                        for (const key in data) {
+                          if (data.hasOwnProperty(key)) {
+                            params.append(key, data[key]);
+                          }
+                        }
+                        fetch('https://www.xtrade.com/api/lead/create', {
+                          method: 'POST',
+                          mode: 'no-cors',
+                          headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                          },
+                          body: params.toString()
+                        }).then(response => {
+                          if (response.ok) {
+                            return response.json();
+                          } else {
+                            throw new Error('Network response was not ok');
+                          }
+                        }).then(data => {
+                          console.log(data);
+                          if (data.success && data.optionalThankyouPage) {
+                            window.location.href = data.optionalThankyouPage;
+                          } else {
+                            // Handle other scenarios if necessary
+                          }
+                        }).catch(error => {
+                          console.error('Error:', error);
+                          // Handle error
+                        });
+                      });
+                    </script>
+                  </div>
                 </div>
               </div>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Readers' results</font>
+                  </font>
+                </a>
+              </h5>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Singapore: $5,552</font>
+                  </font>
+                </a>
+              </h5>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/test1.webp" class="img-responsive" style="padding: 0px;">
+              </a>
+              <p class="m-b-5">
+                <i>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">“He uses </font>
+                  </font>
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Bitcoin Billionaire</font>
+                    </font>
+                  </a>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;"> once in two months, he makes initial deposits of $250 and $5,952. This is too much for me to sing a long song about”. </font>
+                  </font>
+                </i>
+              </p>
+              <p class="m-t-25">
+                <strong>
+                  <i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Goh Cheng Liang </font>
+                    </font>
+                    <br>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Singapore</font>
+                    </font>
+                  </i>
+                </strong>
+              </p>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Singapore: $9,284</font>
+                  </font>
+                </a>
+              </h5>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/test2.jpg" class="img-responsive" style="padding: 0px;">
+              </a>
+              <p class="m-b-5">
+                <i>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">"He spent more than $9,200 in Singapore It's only one person who used </font>
+                    <font style="vertical-align: inherit;">Bitcoin </font>
+                  </font>
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Billionaire</font>
+                    </font>
+                  </a>
+                  <font style="vertical-align: inherit;"></font>
+                </i>
+              </p>
+              <p class="m-t-25">
+                <strong>
+                  <i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Kwek Leng Beng </font>
+                    </font>
+                    <br>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Singapore</font>
+                    </font>
+                  </i>
+                </strong>
+              </p>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Singapore: $22,219</font>
+                  </font>
+                </a>
+              </h5>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/rich1.jpg" class="img-responsive" height="151" style="padding: 0px;">
+              </a>
+              <p class="m-b-5">
+                <i>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">"It's so easy to use, even for me! I've never traded before but I'm making over $3,000 per week and I love this life."</font>
+                  </font>
+                </i>
+              </p>
+              <p class="m-t-25">
+                <strong>
+                  <i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Eduardo Saverin </font>
+                    </font>
+                    <br>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Co-founder of Facebook</font>
+                    </font>
+                  </i>
+                </strong>
+              </p>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Singapore: $41,943</font>
+                  </font>
+                </a>
+              </h5>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/rich5.webp" class="img-responsive" style="padding: 0px;">
+              </a>
+              <p class="m-b-5">
+                <i>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">"I'm finally able to quit my job, especially thanks to </font>
+                  </font>
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Bitcoin Billionaire</font>
+                    </font>
+                  </a>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;"> . I've done so much, so easily". </font>
+                  </font>
+                </i>
+              </p>
+              <p class="m-t-25">
+                <strong>
+                  <i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Li Xiting </font>
+                    </font>
+                    <br>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Singapore </font>
+                    </font>
+                  </i>
+                </strong>
+              </p>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Singapore: $7,521</font>
+                  </font>
+                </a>
+              </h5>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/rich6.webp" class="img-responsive" height="151" style="padding: 0px;">
+              </a>
+              <p class="m-b-5">
+                <i>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">"I've only been using it for 2 weeks. </font>
+                  </font>
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Bitcoin Billionaire</font>
+                    </font>
+                  </a>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;"> and it's already helped me save a good amount of money for my future holidays in Europe".</font>
+                  </font>
+                </i>
+              </p>
+              <p class="m-t-25">
+                <strong>
+                  <i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Robert and Philip Ng </font>
+                    </font>
+                    <br>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Singapore </font>
+                    </font>
+                  </i>
+                </strong>
+              </p>
+              <h5 class="m-b-0 pink-border-bottom">
+                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Singapore: $58,744</font>
+                  </font>
+                </a>
+              </h5>
+              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                <img src="img/rich7.webp" class="img-responsive" style="padding: 0px;">
+              </a>
+              <p class="m-b-5">
+                <i>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">“I teamed up with my best friends and together we hit the jackpot after just 3 weeks. The trading robot does all the work for you. Together we made over $17,000 per week”</font>
+                  </font>
+                </i>
+              </p>
+              <p class="m-t-25">
+                <strong>
+                  <i>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">The Kwee brothers </font>
+                    </font>
+                    <br>
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Singapore</font>
+                    </font>
+                  </i>
+                </strong>
+              </p>
             </div>
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Readers' results</font></font></a>
-            </h5>
-
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore: $5,552</font></font></a>
-            </h5>
-            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-              <img src="img/test1.webp" class="img-responsive" style="padding: 0px;"> </a>
-            <p class="m-b-5"><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“He uses
-                 </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> once in two months, he makes initial deposits of $250 and $5,952. This is too much for me to sing a long song about”.
-              </font></font></i></p>
-            <p class="m-t-25"><strong><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Goh Cheng Liang </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore</font></font></i></strong></p>
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore: $9,284</font></font></a>
-            </h5>
-            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-              <img src="img/test2.jpg" class="img-responsive" style="padding: 0px;"> </a>
-            <p class="m-b-5"><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"He spent more than $9,200 in Singapore It's only one person who used
-                 </font><font style="vertical-align: inherit;">Bitcoin
-               </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Billionaire</font></font></a><font style="vertical-align: inherit;"></font></i></p>
-            <p class="m-t-25"><strong><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kwek Leng Beng </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore</font></font></i></strong></p>
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore: $22,219</font></font></a>
-            </h5>
-            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-              <img src="img/rich1.jpg" class="img-responsive" height="151" style="padding: 0px;"> </a>
-            <p class="m-b-5">
-              <i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"It's so easy to use, even for me! I've never traded before but I'm making over $3,000 per week and I love this life."</font></font></i>
-            </p>
-            <p class="m-t-25"><strong><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Eduardo Saverin 
-               </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Co-founder of Facebook</font></font></i></strong></p>
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore: $41,943</font></font></a>
-            </h5>
-            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-              <img src="img/rich5.webp" class="img-responsive" style="padding: 0px;"> </a>
-            <p class="m-b-5"><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"I'm finally able to quit my job, especially thanks to
-                 </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . I've done so much, so easily".
-              </font></font></i></p>
-            <p class="m-t-25"><strong><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Li Xiting
-               </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore
-            </font></font></i></strong></p>
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore: $7,521</font></font></a>
-            </h5>
-            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-              <img src="img/rich6.webp" class="img-responsive" height="151" style="padding: 0px;"> </a>
-            <p class="m-b-5"><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"I've only been using it for 2 weeks.
-                 </font></font><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bitcoin Billionaire</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> and it's already helped me save a good amount of money for my future holidays in Europe".</font></font></i>
-            </p>
-            <p class="m-t-25"><strong><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Robert and Philip Ng </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore
-            </font></font></i></strong></p>
-            <h5 class="m-b-0 pink-border-bottom">
-              <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" style="text-decoration: none; color: inherit;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore: $58,744</font></font></a>
-            </h5>
-            <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-              <img src="img/rich7.webp" class="img-responsive" style="padding: 0px;"> </a>
-            <p class="m-b-5">
-              <i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“I teamed up with my best friends and together we hit the jackpot after just 3 weeks. The trading robot does all the work for you. Together we made over $17,000 per week”</font></font></i>
-            </p>
-            <p class="m-t-25"><strong><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The Kwee brothers
-               </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Singapore</font></font></i></strong></p>
- </div>
-            
-            
-
-          </div>
+        </div>
         </i>
       </div>
       <div class="row" bis_skin_checked="1"></div>
-    </div>
-    <i>
-      <div class="container comments" bis_skin_checked="1">
-        <div class="row border-top" bis_skin_checked="1">
-          <div class="col-md-8" bis_skin_checked="1">
-            <div class="row recent" bis_skin_checked="1">
-              <div class="col-xs-12" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" class="pull-left"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"># of recent comments</font></font></a>
-                <p class="pull-right"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Add a comment</font></font></p>
+      </div>
+      <i>
+        <div class="container comments" bis_skin_checked="1">
+          <div class="row border-top" bis_skin_checked="1">
+            <div class="col-md-8" bis_skin_checked="1">
+              <div class="row recent" bis_skin_checked="1">
+                <div class="col-xs-12" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?" class="pull-left">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;"># of recent comments</font>
+                    </font>
+                  </a>
+                  <p class="pull-right">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Add a comment</font>
+                    </font>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="media no-border-top" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/lewis.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aloka</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I have been trading with it for the past few weeks and I have found a small price of $2,300. </font><font style="vertical-align: inherit;">I love it!</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">13.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 12 minutes
-</font></font></span>
-                </p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/tanya.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rvi</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I saw it on the show and I signed up yesterday, I'm down about $25.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6. Liking. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 13 minutes
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media p-b-0" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/jenni.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adriti</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A friend of mine used it and recommended it to me, I will check it out.</font></font></p>
-                <p class="bottom m-b-8"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">19.To like. </font></font></span>
-                  <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 25 minutes
-</font></font></span>
-                </p>
-                <div class="media" bis_skin_checked="1">
-                  <div class="media-left" bis_skin_checked="1">
+              <div class="media no-border-top" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/lewis.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
                     <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                      <img class="media-object" src="img/cash.jpg" alt="" style="padding: 0px;"> </a>
-                  </div>
-                  <div class="media-body" bis_skin_checked="1">
-                    <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Karan</font></font></a></h4>
-                    <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">It's giving me more returns than my stock portfolio!</font></font></p>
-                    <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 46 minutes
-</font></font></span>
-                    </p>
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Aloka</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I have been trading with it for the past few weeks and I have found a small price of $2,300. </font>
+                      <font style="vertical-align: inherit;">I love it!</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">13.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 12 minutes </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/tanya.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">rvi</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I saw it on the show and I signed up yesterday, I'm down about $25.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">6. Liking. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 13 minutes </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media p-b-0" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/jenni.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Adriti</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">A friend of mine used it and recommended it to me, I will check it out.</font>
+                    </font>
+                  </p>
+                  <p class="bottom m-b-8">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">19.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 25 minutes </font>
+                      </font>
+                    </span>
+                  </p>
+                  <div class="media" bis_skin_checked="1">
+                    <div class="media-left" bis_skin_checked="1">
+                      <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                        <img class="media-object" src="img/cash.jpg" alt="" style="padding: 0px;">
+                      </a>
+                    </div>
+                    <div class="media-body" bis_skin_checked="1">
+                      <h4 class="media-heading">
+                        <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                          <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Karan</font>
+                          </font>
+                        </a>
+                      </h4>
+                      <p class="m-t-25">
+                        <font style="vertical-align: inherit;">
+                          <font style="vertical-align: inherit;">It's giving me more returns than my stock portfolio!</font>
+                        </font>
+                      </p>
+                      <p class="bottom">
+                        <font style="vertical-align: inherit;">
+                          <font style="vertical-align: inherit;">Answer. </font>
+                        </font>
+                        <span class="like">
+                          <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">like. </font>
+                          </font>
+                        </span>
+                        <span class="time">
+                          <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">does 46 minutes </font>
+                          </font>
+                        </span>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/katy.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Kabir</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">It is very easy to use, you just have to deposit money and the robot will do everything for you.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">43.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">takes about an hour </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/amanda.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Janaki</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I saw it on the news. </font>
+                      <font style="vertical-align: inherit;">Thanks for sharing this article!</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">3.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">1 hour ago </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/julie.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Jasmeet</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I've heard a lot about Bitcoin and everyone uses it, I'm going to try it! </font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/sarah.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;"> Kanishka</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I made over $1,430 after just one week, I'm about to quit my job and dedicate myself to this full time.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">12.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/kirs.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Jasoda</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I bought my first Bitcoin yesterday and I'm very excited to see what it can do for me in the coming days. </font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">30.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/celia.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Jhanvi</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">This worked for me! </font>
+                      <font style="vertical-align: inherit;">Worked just as I thought. </font>
+                      <font style="vertical-align: inherit;">It was simple enough and I want others to know when something works.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">53.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/alanna.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Juhi</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Thanks for the info, I've just started using the platform.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">16.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/alice.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">medhaansa</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I've been very busy with my kids lately, but that's okay with me. </font>
+                      <font style="vertical-align: inherit;">I did the operation for about $190 in 4 days. </font>
+                      <font style="vertical-align: inherit;">It's small, but it's a good start!</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">2. To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/mark.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Festival</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I am so impressed that so far I have deposited over $500 into my account and have recovered over 4 times that amount.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">11.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/ashley.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Jyestha</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Very easy to use and very fast. </font>
+                      <font style="vertical-align: inherit;">I'm not a very technical person, but I have an understanding of it. </font>
+                      <font style="vertical-align: inherit;">Move easily. </font>
+                      <font style="vertical-align: inherit;">It made me almost $130 after just one day!!</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">33.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 2 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/hick.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Lampblack </font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I just signed up, wish me luck. </font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">23.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 3 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/brit.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Devansh</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">My friend just sent me this by email, a friend at work talked about it. </font>
+                      <font style="vertical-align: inherit;">I think it works very well.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">6. Liking. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 3 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/shel.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Heartfelt</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I will tell all my friends, thanks for the information</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">2. To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 3 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/jill.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">heartbreak</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I wasn't sure about signing up, but I'm glad I did. </font>
+                      <font style="vertical-align: inherit;">I won like $89 after only 2 hours on the platform. </font>
+                      <font style="vertical-align: inherit;">Too easy and too fast, nothing could be easier </font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">17.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 4 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/molly.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">carpet</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I went ahead and made my initial deposit. </font>
+                      <font style="vertical-align: inherit;">Can't wait to get started and see what happens.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">8. Liking. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 6 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/jenna.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">poetry</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">This has to be the easiest way to invest in Bitcoin, I could even do it without RLO with practically no previous experience in the field.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">20.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 8 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/laura.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Forgiveness</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I've tried a lot of things like this, in a sense I want to try it but in the back of my mind I'm thinking, yes okay!!! </font>
+                      <font style="vertical-align: inherit;">Someone please make sure this works.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">10. Liking. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 8 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/sara.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Ayush</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Time I tried the platform issue and it worked quite well for me.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">13.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 8 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/silver.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">evan</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Some of my friends have invested in Bitcoin and become very rich so I will join them soon.</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">3.To like. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 8 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="media border-bottom" bis_skin_checked="1">
+                <div class="media-left" bis_skin_checked="1">
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"></a>
+                  <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                    <img class="media-object" src="img/got.jpg" alt="" style="padding: 0px;">
+                  </a>
+                </div>
+                <div class="media-body" bis_skin_checked="1">
+                  <h4 class="media-heading">
+                    <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Mishka</font>
+                      </font>
+                    </a>
+                  </h4>
+                  <p class="m-t-25">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">I didn't know you could get results like this, does anyone know if you can? </font>
+                      <font style="vertical-align: inherit;">Invest in other cryptocurrencies?</font>
+                    </font>
+                  </p>
+                  <p class="bottom">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Answer. </font>
+                    </font>
+                    <span class="like">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">5. Liking. </font>
+                      </font>
+                    </span>
+                    <span class="time">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">does 9 hours </font>
+                      </font>
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <p class="small">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">#social plugin </font>
+                </font>
+              </p>
             </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/katy.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kabir</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">It is very easy to use, you just have to deposit money and the robot will do everything for you.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">43.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">takes about an hour
-</font></font></span>
-                </p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/amanda.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Janaki</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I saw it on the news. </font><font style="vertical-align: inherit;">Thanks for sharing this article!</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 hour ago
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/julie.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jasmeet</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I've heard a lot about Bitcoin and everyone uses it, I'm going to try it!
-                </font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span>
-                </p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/sarah.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">	Kanishka</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I made over $1,430 after just one week, I'm about to quit my job and dedicate myself to this full time.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/kirs.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jasoda</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I bought my first Bitcoin yesterday and I'm very excited to see what it can do for me in the coming days.
-                </font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">30.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/celia.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jhanvi</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">This worked for me! </font><font style="vertical-align: inherit;">Worked just as I thought. </font><font style="vertical-align: inherit;">It was simple enough and I want others to know when something works.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">53.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/alanna.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Juhi</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thanks for the info, I've just started using the platform.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/alice.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">medhaansa</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I've been very busy with my kids lately, but that's okay with me. </font><font style="vertical-align: inherit;">I did the operation for about $190 in 4 days. </font><font style="vertical-align: inherit;">It's small, but it's a good start!</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2. To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/mark.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Festival</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I am so impressed that so far I have deposited over $500 into my account and have recovered over 4 times that amount.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/ashley.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jyestha</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Very easy to use and very fast. </font><font style="vertical-align: inherit;">I'm not a very technical person, but I have an understanding of it. </font><font style="vertical-align: inherit;">Move easily. </font><font style="vertical-align: inherit;">It made me almost $130 after just one day!!</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">33.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 2 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/hick.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lampblack </font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I just signed up, wish me luck.
-                </font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">23.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 3 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/brit.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Devansh</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">My friend just sent me this by email, a friend at work talked about it. </font><font style="vertical-align: inherit;">I think it works very well.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6. Liking. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 3 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/shel.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Heartfelt</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I will tell all my friends, thanks for the information</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2. To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 3 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/jill.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">heartbreak</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I wasn't sure about signing up, but I'm glad I did. </font><font style="vertical-align: inherit;">I won like $89 after only 2 hours on the platform. </font><font style="vertical-align: inherit;">Too easy and too fast, nothing could be easier
-                </font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">17.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 4 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/molly.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">carpet</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I went ahead and made my initial deposit. </font><font style="vertical-align: inherit;">Can't wait to get started and see what happens.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8. Liking. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 6 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/jenna.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">poetry</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">This has to be the easiest way to invest in Bitcoin, I could even do it without RLO with practically no previous experience in the field.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 8 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/laura.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Forgiveness</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I've tried a lot of things like this, in a sense I want to try it but in the back of my mind I'm thinking, yes okay!!! </font><font style="vertical-align: inherit;">Someone please make sure this works.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10. Liking. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 8 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/sara.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ayush</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Time I tried the platform issue and it worked quite well for me.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">13.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 8 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                  <img class="media-object" src="img/silver.jpg" alt="" style="padding: 0px;"> </a>
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">evan</font></font></a></h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Some of my friends have invested in Bitcoin and become very rich so I will join them soon.</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3.To like. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 8 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <div class="media border-bottom" bis_skin_checked="1">
-              <div class="media-left" bis_skin_checked="1">
-                <a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?">
-                </a><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><img class="media-object" src="img/got.jpg" alt="" style="padding: 0px;"></a>
-
-
-              </div>
-              <div class="media-body" bis_skin_checked="1">
-                <h4 class="media-heading"><a href="file:///C:/Users/pc/Downloads/crypto-in-hindi/crypto-in-hindi/index65ad.html#LINK#?"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mishka</font></font></a>
-                </h4>
-                <p class="m-t-25"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I didn't know you could get results like this, does anyone know if you can? </font><font style="vertical-align: inherit;">Invest in other cryptocurrencies?</font></font></p>
-                <p class="bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Answer.
- </font></font><span class="like"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5. Liking. </font></font></span> <span class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">does 9 hours
-</font></font></span></p>
-              </div>
-            </div>
-            <p class="small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#social plugin
-            </font></font></p>
+          </div>
+        </div>
+      </i>
+    </section>
+    <footer class="main_footer_wrap">
+      <div class="container" bis_skin_checked="1">
+        <div class="row" bis_skin_checked="1">
+          <div class="main_footer" bis_skin_checked="1">
+            <ul class="footer_menu">
+              <li>
+                <a href="#LINK#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#LINK#">Term of use</a>
+              </li>
+              <li>
+                <a href="#LINK#">Simple Use</a>
+              </li>
+            </ul>
+            <div class="footer_copyright" bis_skin_checked="1">© 2021 Copyright. All rights reserved.</div>
           </div>
         </div>
       </div>
-    </i>
-  </section>
-
-  <footer class="main_footer_wrap">
-    <div class="container" bis_skin_checked="1">
-      <div class="row" bis_skin_checked="1">
-        <div class="main_footer" bis_skin_checked="1">
-          <ul class="footer_menu">
-            <li><a href="#LINK#">Privacy Policy</a></li>
-            <li><a href="#LINK#">Term of use</a></li>
-            <li><a href="#LINK#">Simple Use</a></li>
-          </ul>
-          <div class="footer_copyright" bis_skin_checked="1">© 2021 Copyright. All rights reserved.</div>
-        </div>
+    </footer>
+    <link rel="stylesheet" href="css/style2.css" type="text/css">
+    <div class="obtain" style="display: block;" bis_skin_checked="1">
+      <div class="g_button" bis_skin_checked="1">
+        <a class="breaking" href="#LINK#">Try Bitcoin Billionaire for yourself.</a>
       </div>
     </div>
-  </footer>
-  <link rel="stylesheet" href="css/style2.css" type="text/css">
-  <div class="obtain" style="display: block;" bis_skin_checked="1">
-    <div class="g_button" bis_skin_checked="1">
-      <a class="breaking" href="#LINK#">Try Bitcoin Billionaire for yourself.</a>
+    <div class="notification-bottom" style="bottom: -100px;" bis_skin_checked="1">
+      <div class="notification-image" bis_skin_checked="1">
+        <a href="#LINK#">
+          <img src="img/dollaricon-1.png" width="80" height="80">
+        </a>
+      </div>
+      <div class="notification-txt" bis_skin_checked="1">
+        <p>किसी से <span class="state">हैमिल्टन </span> बस वापस ले लिया <span class="amount">$223</span>
+        </p>
+        <span class="now">बस अब </span>
+      </div>
     </div>
-  </div>
-  <div class="notification-bottom" style="bottom: -100px;" bis_skin_checked="1">
-    <div class="notification-image" bis_skin_checked="1">
-      <a href="#LINK#">
-        <img src="img/dollaricon-1.png" width="80" height="80">
-      </a>
+    <div class="notification-top" style="top: -60px;" bis_skin_checked="1">
+      <div class="notification-image" bis_skin_checked="1">
+        <a href="#LINK#">
+          <img src="img/dollaricon-1.png" width="60" height="60">
+        </a>
+      </div>
+      <div class="notification-txt" bis_skin_checked="1">
+        <p>किसी से <span class="state">हैमिल्टन </span> बस वापस ले लिया <span class="amount">$223</span>
+        </p>
+        <span class="now">बस अब </span>
+      </div>
     </div>
-    <div class="notification-txt" bis_skin_checked="1">
-      <p>किसी से
-<span class="state">हैमिल्टन
-</span> बस वापस ले लिया
-
- <span class="amount">$223</span></p>
-      <span class="now">बस अब
-
-</span>
-    </div>
-  </div>
-  <div class="notification-top" style="top: -60px;" bis_skin_checked="1">
-    <div class="notification-image" bis_skin_checked="1">
-      <a href="#LINK#">
-        <img src="img/dollaricon-1.png" width="60" height="60"></a>
-    </div>
-    <div class="notification-txt" bis_skin_checked="1">
-      <p>किसी से
-<span class="state">हैमिल्टन
-</span> बस वापस ले लिया
-
- <span class="amount">$223</span></p>
-      <span class="now">बस अब
-
-</span>
-    </div>
-  </div>
-  <link rel="stylesheet" href="css/style3.css" type="text/css">
-  <link rel="stylesheet" href="css/section-manual.css" type="text/css">
-
-  <script>
-    params = window.location.search.substr(1);
-    var links = document.getElementsByTagName("a");
-    length = links.length;
-
-    for (var i = 0; i < length; i++) {
-      links[i].href += '?' + params;
-    }
-  </script>
-</body>
-
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+    <link rel="stylesheet" href="css/section-manual.css" type="text/css">
+    <script>
+      params = window.location.search.substr(1);
+      var links = document.getElementsByTagName("a");
+      length = links.length;
+      for (var i = 0; i < length; i++) {
+        links[i].href += '?' + params;
+      }
+    </script>
+  </body>
 </html>
-
-
-
